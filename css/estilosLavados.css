@@ -840,10 +840,6 @@ strong {
     font-size: 14px;
     padding: 10px 20px;
   }
-  .logomostrar{
-    display: inherit;
-    text-align: center;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -873,6 +869,10 @@ strong {
 
   .booking-form {
     padding: 35px;
+  }
+  .logomostrar{
+    display: inherit;
+    text-align: center;
   }
 }
 
