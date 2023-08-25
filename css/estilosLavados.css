@@ -771,6 +771,10 @@ strong {
   top: -32px;
   right: 17px;
 }
+
+.logomostrar{
+  display: none;
+}
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
@@ -835,6 +839,10 @@ strong {
   .custom-btn {
     font-size: 14px;
     padding: 10px 20px;
+  }
+  .logomostrar{
+    display: inherit;
+    text-align: center;
   }
 }
 
