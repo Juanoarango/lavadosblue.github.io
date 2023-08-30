@@ -676,6 +676,12 @@ strong {
   border-color: transparent;
 }
 
+/*---------------------------------------
+ FORM 123FORMS              
+-----------------------------------------*/
+.branding-action-bar{
+  display: none !important;
+}
 
 /*---------------------------------------
   SITE FOOTER              

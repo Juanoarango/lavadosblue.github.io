@@ -249,7 +249,18 @@ https://templatemo.com/tm-585-barber-shop
                         <div class="row">
 
                             <div class="col-lg-10 col-12 mx-auto">
-                                <form action="#" method="post" class="custom-form booking-form" id="bb-booking-form" role="form">
+
+
+<!-- form.123formbuilder.com script begins here -->
+<iframe allowTransparency="true" style="min-height:1000px; height:inherit;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="https://form.123formbuilder.com/my-contact-form-6505524.html">
+    <p>Su navegador no soporta iframes. El formulario de contacto no se puede visualizar. Utilice otro método de contacto (teléfono, e-mail.)</p>
+    </iframe>
+    <!-- form.123formbuilder.com script ends here -->
+
+
+
+
+                                <!-- <form action="#" method="post" class="custom-form booking-form" id="bb-booking-form" name="reserva" role="form">
                                     <div class="text-center mb-5">
                                         <h2 class="mb-1">Reserve su Servicio</h2>
 
@@ -300,7 +311,14 @@ https://templatemo.com/tm-585-barber-shop
                                             <button type="submit" class="form-control">Enviar</button>
                                         </div>
                                     </div>
-                                </form>
+                                </form> -->
+
+
+
+
+
+
+
                         </div>
                     </div>
                 </section>
@@ -504,14 +522,29 @@ https://templatemo.com/tm-585-barber-shop
                         </div>
                     </div>                    
                 </footer>
+
+
+                <button onclick="generateRandomNumber()">Generar número aleatorio</button>
+                <input type="text" id="randomNumberInput">
+
+
             </div>
             
-
+            <script>
+                function generateRandomNumber() {
+                  // Genera un número aleatorio entre 0 y 100
+                  var randomNumber = Math.random() * 100;
+              
+                  // Asigna el número aleatorio al input
+                  document.getElementById('randomNumberInput').value = randomNumber;
+                }
+              </script>
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
+
 
     </body>
 </html>
