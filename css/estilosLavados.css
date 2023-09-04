@@ -128,7 +128,9 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
-
+#trucazo{
+  opacity: 0;
+}
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
