@@ -256,9 +256,9 @@ strong {
 }
 
 .logo-image {
-  width: 280px;
+  width: 270px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 7px;
 }
 
 #sidebarMenu .nav-link {
@@ -767,6 +767,9 @@ strong {
   width: 100%;
   height: auto;
   text-align: right;
+}
+.contactowp_2{
+  display: none;
 
 }
 .logowp{
@@ -851,6 +854,18 @@ strong {
   .logomostrar{
     display: inherit;
     text-align: center;
+  }
+
+  .contactowp_2{
+    display: contents;
+    z-index: 10;
+  
+  }
+  .logowp{
+    position: fixed;
+    right: 79px;
+    top: 400px;
+    z-index: 200;
   }
 }
 
