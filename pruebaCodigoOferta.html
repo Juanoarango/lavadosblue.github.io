@@ -91,12 +91,12 @@
         // console.log(form.get('bb-name'))
         $buttonMailto.setAttribute('href', `mailto:lavadosblue@gmail.com?subject=Nombre: ${form.get('bb-name')} 
         Celular: ${form.get('bb-phone')}
-        &body=${form.get('bb-message')} 
-        -Dirección: ${form.get('bb-direccion')} 
-        -Número de piezas: ${form.get('bb-number')} 
-        -Fecha de recogida: ${form.get('bb-date')} 
-        -Tipo de servicio ${form.get('bb-branch')} 
-        -Hora de recogida ${form.get('bb-time')}`)
+        &body=${form.get('bb-message')} <br>
+        -Dirección: ${form.get('bb-direccion')} <br>
+        -Número de piezas: ${form.get('bb-number')} <br>
+        -Fecha de recogida: ${form.get('bb-date')} <br>
+        -Tipo de servicio ${form.get('bb-branch')} <br>
+        -Hora de recogida ${form.get('bb-time')}`) 
         $buttonMailto.click()
     }
     </script>

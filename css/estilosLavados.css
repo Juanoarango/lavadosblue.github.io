@@ -43,7 +43,43 @@ body {
   font-family: var(--body-font-family); 
 }
 
+.aviso {
+  
+  animation-name: aviso;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 
+  -webkit-animation-name: aviso;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  font-size: 14px;
+  width: 362px;
+  text-align: justify;
+  margin: auto;
+  padding-top: 22px;
+
+}
+
+@-moz-keyframes aviso{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes aviso {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes aviso {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
